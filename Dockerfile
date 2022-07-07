@@ -1,3 +1,4 @@
-FROM openwa/wa-automate
+FROM scratch
 ENV PORT=$PORT
 ENV WA_PORT=$PORT
+FROM openwa/wa-automate
